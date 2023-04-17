@@ -12,17 +12,16 @@ The complete code for application development and how to test on a local minikub
 - Minikube https://minikube.sigs.k8s.io/docs/start/
 - Visual Studio Code https://code.visualstudio.com/
 
-### Download dource code
-Start Docker desktop
+### Download source code
+
 Download the repo from git: $ git clone https://github.com/ranjanm1/hello-world-go-docker-minikube.git
 Open Visual Studio code and open the downloaded folder
 
 ### Prepare local kubernetes cluster using docker and minilube 
-
+- Start Docker desktop
 - start minikube
 ```
 minikube start
-
 ```
 - Move to the application folder and check all files downloaded correctly.
 ```
