@@ -61,6 +61,9 @@ Since we are runnng this application on Minikube which runs a virtual machine, a
 
 ```
 $ minikube service load-balancer-hello-world
+```
+You will see output in the console like below.
+```
 |-----------|---------------------------|-------------|---------------------------|
 | NAMESPACE |           NAME            | TARGET PORT |            URL            |
 |-----------|---------------------------|-------------|---------------------------|
@@ -74,7 +77,10 @@ $ minikube service load-balancer-hello-world
 |-----------|---------------------------|-------------|------------------------|
 🎉  Opening service default/load-balancer-hello-world in default browser...
 ❗  Because you are using a Docker driver on windows, the terminal needs to be open to run it.
+
 ```
+image.png
+
 Addituionally, you can use the curl command -
 
 Open another terminal window and curl
