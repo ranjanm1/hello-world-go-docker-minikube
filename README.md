@@ -24,6 +24,8 @@ start minikube
 minikube start
 
 ```
+Move to the application folder and check all files downloaded correctly.
+```
 $ cd hello-world-go-docker-minikube/
 $ ls -ltr
 total 16
