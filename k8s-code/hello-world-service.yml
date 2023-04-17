@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app.kubernetes.io/name: load-balancer-hello-world
+  name: load-balancer-hello-world
+  namespace: default
+
+spec:
+  ports:
+  - nodePort: 32212
+    port: 8080
+    protocol: TCP
+    targetPort: 8080
+  selector:
+    app.kubernetes.io/name: hello-world-ranjan
+  sessionAffinity: None
+  type: LoadBalancer
+status:
+  loadBalancer: {}

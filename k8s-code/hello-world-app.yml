@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app.kubernetes.io/name: hello-world-ranjan
+  name: hello-world-ranjan
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: hello-world-ranjan
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: hello-world-ranjan
+    spec:
+      containers:
+        - image: ranjanm1/hello-world-ranjan
+          name: hello-world
+          ports:
+            - containerPort: 8080
