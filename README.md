@@ -1,10 +1,10 @@
 # hello-world-go-docker-minikube
 
-# This a simple microservice application written in Go language. https://go.dev/doc/
-# This application has been containerised using docker
-# The application image can be found and downloaded from here: https://hub.docker.com/r/ranjanm1/hello-world-ranjan
-# The application can be installed on minikube or any kubernetes cluster.
-# The complete code for application development and how to test on a local minikube cluster can be found in this github page.
+This a simple microservice application written in Go language. https://go.dev/doc/
+This application has been containerised using docker
+The application image can be found and downloaded from here: https://hub.docker.com/r/ranjanm1/hello-world-ranjan
+The application can be installed on minikube or any kubernetes cluster.
+The complete code for application development and how to test on a local minikube cluster can be found in this github page.
 
 # Application Development
 
