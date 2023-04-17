@@ -79,7 +79,6 @@ You will see output in the console like below.
 ❗  Because you are using a Docker driver on windows, the terminal needs to be open to run it.
 
 ```
-image.png
 
 Addituionally, you can use the curl command -
 
