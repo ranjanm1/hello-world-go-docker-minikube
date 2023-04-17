@@ -6,25 +6,25 @@ The application image can be found and downloaded from here: https://hub.docker.
 The application can be installed on minikube or any kubernetes cluster.
 The complete code for application development and how to test on a local minikube cluster can be found in this github page.
 
-# Application Development
+## How to run on a local minikube cluster
+### Pre-Requisites
+- Docker desktop https://www.docker.com/products/docker-desktop/
+- Minikube https://minikube.sigs.k8s.io/docs/start/
+- Visual Studio Code https://code.visualstudio.com/
 
-
-
-
-# How to run on a local minikube cluster
-Install docker desktop
-Install minikube
+### Download dource code
 Start Docker desktop
 Download the repo from git: $ git clone https://github.com/ranjanm1/hello-world-go-docker-minikube.git
 Open Visual Studio code and open the downloaded folder
 
-Start a terminal session
-start minikube
+### Prepare local kubernetes cluster using docker and minilube 
+
+- start minikube
 ```
 minikube start
 
 ```
-Move to the application folder and check all files downloaded correctly.
+- Move to the application folder and check all files downloaded correctly.
 ```
 $ cd hello-world-go-docker-minikube/
 $ ls -ltr
@@ -97,3 +97,6 @@ NAME         TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
 kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   14d
 ```
 
+## Application Development
+### Pre-Requisites
+- Go Dev package https://go.dev/
