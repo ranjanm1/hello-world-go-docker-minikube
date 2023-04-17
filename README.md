@@ -14,7 +14,10 @@ The complete code for application development and how to test on a local minikub
 
 ### Download source code
 
-Download the repo from git: $ git clone https://github.com/ranjanm1/hello-world-go-docker-minikube.git
+Download the repo from github: 
+```
+$ git clone https://github.com/ranjanm1/hello-world-go-docker-minikube.git
+```
 Open Visual Studio code and open the downloaded folder
 
 ### Prepare local kubernetes cluster using docker and minilube 
