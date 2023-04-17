@@ -79,8 +79,21 @@ Open another terminal window and curl
 ```
 http://127.0.0.1:55646
 ```
+# Clean Up
+Run the following command to clean up the deployment. Make sure you are in the /k8s-code directory and run the below command.
 
+```
+$ kubectl delete -f .
+deployment.apps "hello-world-ranjan" deleted
+service "load-balancer-hello-world" deleted
+```
+Verify no deployment and load balancer service are present.
+```
+$ kubectl get deployments
+No resources found in default namespace.
 
+$ kubectl get svc
+NAME         TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
+kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   14d
+```
 
-    # 
-cd k8s folder
